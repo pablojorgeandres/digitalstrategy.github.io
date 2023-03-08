@@ -27,3 +27,7 @@ Temporary Items
 
 #IOS hidden files
 .DS_Store
+
+#Resouces folder
+/resources
+
