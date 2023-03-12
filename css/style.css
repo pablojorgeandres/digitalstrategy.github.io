@@ -2820,7 +2820,7 @@ footer {
 
 
 
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 450px) {
 	#home {
 		min-height: 65vh;
 	}
@@ -3003,5 +3003,11 @@ footer {
 @media (min-width: 700px) {
 	.primary-boxes-mobile {
 		display: none;
+	}
+	
+	.columnB img {
+		width: 62%;
+		margin-top: 50px;
+    	margin-bottom: 20px;
 	}
 }
