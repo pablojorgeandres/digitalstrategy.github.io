@@ -189,6 +189,7 @@ p {
 	#services-body > div.header.active > div {
 		background-color: rgba(0, 0, 0, 0.75);
 	}
+
 }
 
 @media (max-width: 700px){
@@ -1224,6 +1225,18 @@ footer {
 	color: #F5F5F5;
 }
 
+#contact-us .btn-mobile {
+	display: none;
+}
+
+#home .btn-mobile {
+	display: none;
+}
+
+#social .btn-mobile {
+	display: none;
+}
+
 .footer-container {
 	padding: 2%;
 }
@@ -1257,7 +1270,6 @@ footer {
 #contact-us button {
 	background-color: transparent;
 	border: 2px solid #FF6B00;
-	font-family: 'GothamBold', 'Kurye', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 15px;
     color: #f5f5f5;
     width: 150px;
@@ -1432,6 +1444,7 @@ footer {
 		text-align: left;
 		width: 100vw;
 		position: fixed;
+		right: 0;
 		transform: height 0.5s;
 	}
 
@@ -1527,10 +1540,24 @@ footer {
 		width: 84vw;
 	}
 	#contact-us button {
-		padding: 12px 0 4px 0;
 		width: 130px;
 		line-height: 20px;
+		display: none;
 	}
+
+	#contact-us .btn-mobile {
+		display: block;
+	}
+
+	#home .btn-mobile {
+		display: block;
+	}
+
+	
+	#social .btn-mobile {
+		display: block;
+	}
+
 }
 @media (max-width: 385px){
 
@@ -2820,9 +2847,9 @@ footer {
 
 
 
-@media (min-width: 375px) and (max-width: 450px) {
+@media (min-width: 375px) and (max-width: 650px) {
 	#home {
-		min-height: 65vh;
+		min-height: 70vh;
 	}
 
 	.main-banner-logo {
@@ -2983,6 +3010,36 @@ footer {
 		background: rgb(197,148,29);
 		background: linear-gradient(121deg, rgba(197,148,29,1) 0%, rgba(228,61,131,1) 100%);
 		padding: 0px 20px;
+	}
+
+	#contact-us button {
+		display: none;
+	}
+
+	#home .see-more {
+		display: none;
+	}
+
+	#home .btn-mobile a {
+		text-transform: none;
+	}
+
+	#contact-us .btn-mobile {
+		display: block;
+	}
+
+	
+	#social .btn-mobile {
+		display: block;
+	}
+
+	
+	#social .btn-mobile a {
+		text-transform: none;
+	}
+
+	#social .see-profile {
+		display: none;
 	}
 
 	footer .container {
