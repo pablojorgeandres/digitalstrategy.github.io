@@ -66,11 +66,11 @@
         <section id="marketing">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12 p-mobile">
                         <div class="h2-top-line"></div>
-                        <h2>Nuestros servicios</h2>
+                        <h2 class="services-title">Nuestros servicios</h2>
                     </div>
-                    <div class="col-md-6 col-sm-12 col-xs-12 marketing-left-col">
+                    <div class="col-md-6 col-sm-12 col-xs-12 marketing-left-col p-mobile">
                         <img loading="lazy" class="marketing-h1" src="./img/services-h01.png" />
                         <p>
                             Mediante campañas de menciones a través 
@@ -84,8 +84,8 @@
                         <div class="campanias">
                             <h4>Resultados de campañas:</h4>
                             <img loading="lazy" src="./img/antes-despues-arrow.png" id="antes-despues" />
-                            <p>Antes</p>
-                            <p>Después</p>
+                            <p class="campanias-after">Antes</p>
+                            <p class="campanias-after">Después</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
@@ -130,7 +130,7 @@
         <section id="google">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12 google-left-col">
+                    <div class="col-md-6 col-sm-12 col-xs-12 google-left-col p-mobile">
                         <img loading="lazy" class="google-h1" src="./img/services-h02.png" />
                         <p>
                             Nos encargaremos de atraer clientes
@@ -141,7 +141,7 @@
                         <a rel="stylesheet" href="#google" id="google-ver-mas" onclick="toggleContent()">Ver más »</a>
                         <div class="ver-mas-container" style="display: none;">
                             <div class="google-ver-mas">
-                                <h5>Ventajas de Google y Facebook</h5>                            
+                                <h5>Ventajas</h5>                            
                                 <p><span class="orangeBullet">•</span> Permite dar a conocer rápidamente un producto a gran escala.</p>
                                 <p><span class="greenBullet">•</span> Permite competir cara a cara con grandes competidores.</p>
                                 <p><span class="blueBullet">•</span> El retorno de la inversión es rápido.</p>
@@ -178,20 +178,21 @@
         </section>
         <!-- GOOGLE -->
 
+        <div class="dots-bg"></div>
         <!-- DISEÑO -->
         <section id="diseno">
             <div class="container diseno-container">
                 <div class="row">
                     <div class="col-md-1 col-sm-1 col-xs-1">
                     </div>
-                    <div class="col-md-4 col-sm-10 col-xs-10 diseno-imax">
+                    <div class="col-md-4 col-sm-10 col-xs-11 diseno-imax">
                         <img loading="lazy" class="marketing-img-bg" src="./img/disenowebImax.png" />
                         <img loading="lazy" class="marketing-img-bg" src="./img/disenowebAirCanada.png" />
                         <img loading="lazy" class="marketing-img-bg" src="./img/disenowebSunlife.png" />
                     </div>
                     <div class="col-md-1 col-sm-1 col-xs-1">
                     </div>
-                    <div class="col-md-6 col-sm-12 col-xs-12 diseno-left-col">
+                    <div class="col-md-6 col-sm-12 col-xs-12 diseno-left-col p-mobile">
                         <img loading="lazy" class="diseno-h1" src="./img/services-h03.png" />
                         <p>
                             A través del diseño ui/ux, nuestros
@@ -225,13 +226,13 @@
                         <h2>¿Ya conoces a nuestros influencers?</h2>
                         <p>
                             Contáctanos mediante instagram para comenzar 
-                            tu campaña de menciones con el staff.
-                        </p>
-                        <p>
-                            Cautiva nuevos públicos y lleva tu cuenta a otro nivel.
+                            tu campaña de menciones con el staff. Cautiva nuevos públicos y lleva tu cuenta a otro nivel!
                         </p>
                         <div class="primary-white-button">
                             <a href="#" class="scroll-link" data-id="about">Ver perfil →</a>
+                        </div>
+                        <div class="primary-white-button btn-mobile">
+                            <a href="#" class="scroll-link" data-id="about">Ver perfil</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12 ig-content-img-xs-align">
@@ -246,7 +247,7 @@
         <section id="disenografico">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12 disenografico-left-col">
+                    <div class="col-md-6 col-sm-12 col-xs-12 disenografico-left-col p-mobile">
                         <img loading="lazy" class="disenografico-h1" src="./img/services-h04.png" />
                         <p>
                             Creamos el branding integral de tu perfil.
@@ -308,12 +309,15 @@
                         <img loading="lazy" class="community-vid-img" src="./img/community-vid.gif" />
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12 community-right-col">
-                        <img loading="lazy" class="community-h1" src="./img/services-h05.png" />
-                        <p>
-                            Nuestra community manager se encargará
-                            de mejorar tus redes sociales a través de
-                            asesoramientos persnalizados. 
-                        </p>
+                        <div class="community-right-col-text">
+                            <img loading="lazy" class="community-h1" src="./img/services-h05.png" />
+                            <p>
+                                Nuestra community manager se encargará
+                                de mejorar tus redes sociales a través de
+                                asesoramientos persnalizados. 
+                            </p>
+                        </div>
+                    
                         <div class="community-circulos-container">
                             <ul>
                                 <li>

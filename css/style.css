@@ -384,6 +384,10 @@ p {
   	vertical-align: middle;
 }
 
+.dots-bg {
+	display: none;
+}
+
 #vtcl-txt-left, #vtcl-txt-right {
 	font-family: 'Gotham', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 14px;
@@ -1914,11 +1918,11 @@ footer {
 		top: -120px;
 	}
 	.community-vid-container {
-		background-image: url(../img/community-bg-mobile.jpeg) !important;
+		background-image: url(../img/community-bg-mobile.png) !important;
 		background-repeat: no-repeat;
 		background-position: right;	
 		background-size: 100%;
-		height: 75vh;
+		height: 656px;
 	}
 	#disenografico {
 		padding: 75px 0;
@@ -2179,7 +2183,7 @@ footer {
 
 .orangeBullet {
 	font-size: 16px;
-	color: orangered;
+	color: #FBBC04;
 }
 
 .greenBullet {
@@ -2846,8 +2850,8 @@ footer {
 }
 
 
-
-@media (min-width: 375px) and (max-width: 650px) {
+/* HOME IPHONE 14 PRO AND PRO MAX */
+@media (min-width: 320px) and (max-width: 650px) {
 	#home {
 		min-height: 70vh;
 	}
@@ -3060,7 +3064,228 @@ footer {
 	}
 }
 
+/* SERVICIOS IPHONE 14 PRO AND PRO MAX */
 
+@media (min-width: 320px) and (max-width: 650px) {
+	.p-mobile {
+		padding-left: 40px;
+		padding-right: 20px;
+	}
+
+	#marketing > div > div > div > h2 {
+		margin-bottom: 40px;
+	}
+
+	.marketing-h1, .google-h1, .diseno-h1, .disenografico-h1, .community-h1 {
+		margin-bottom: 20px !important;
+	}
+	.marketing-left-col p, .google-left-col p, .diseno-left-col p, .disenografico-left-col p, .community-right-col p {
+		font-size: 18px;
+		width: 90%;
+	}
+
+	.campanias {
+		text-align: left;
+		float: none;
+		background: none;
+		padding: 0;
+		margin-top: 30px !important;
+	}
+
+	#marketing > div > div > div.col-md-6.col-sm-12.col-xs-12.marketing-left-col > div > p:nth-child(3) {
+		left: 20px;
+	}
+
+	.campanias-after {
+		position: relative;
+		left: 20px !important;
+		font-size: 14px !important;
+		margin-bottom: 5px;
+	}
+
+	.campanias h4 {
+		margin-bottom: 15px;
+	}
+
+	#marketing-img .container {
+		top: 25px;
+		height: 300px;
+		margin-bottom: 0px !important;
+	}
+
+	.phone-not-slide img {
+		min-width: 100vw !important;
+    	width: 100vw !important;
+	}
+
+	.phone-not-slide li {
+		width: 100vw;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+
+	#google a {
+		color: white;
+		font-style: italic;
+		text-decoration: underline;
+	}
+
+	#google h5 {
+		font-size: 18px;
+	}
+
+	#google-img {
+		top: -265px;
+	}
+
+	#google-img > div > div > div.col-md-6.col-sm-10.col-xs-10 > section {
+		top: 40px !important;
+	}
+
+	#diseno {
+		background: none !important;
+		background-image: none !important;
+		padding-top: 0;
+		top: 155px;
+	}
+
+	.dots-bg {
+		display: block;
+		background-image: url(../img/diseno-bg-mobile.jpeg) !important;
+		background-size: 110% !important;
+		background-position-x: center;
+		position: relative;
+		top: -114px;
+		min-height: 330px;
+	}
+
+	.diseno-imax {
+		top: 85px;
+		margin-bottom: 0px;
+		height: 350px !important;
+	}
+
+	.comunidad-content {
+		top: -70px;
+	}
+
+	.comunidad-content-padding {
+		padding: 80px 45px;
+	}
+
+	.ig-content-display img {
+		margin-top: -132px;
+		margin-right: 40px;
+	}
+
+	.comunidad-content p {
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+
+	.comunidad-content .primary-white-button {
+		display: none;
+	}
+
+	.comunidad-content .primary-white-button .btn-mobile {
+		display: block;
+	}
+
+	#disenografico {
+		top: 0px;
+		padding: 0;
+	}
+	
+	#disenografico .slick-slide {
+		width: 70vw;
+		margin: 0px 10px;
+	}
+
+	.disenografico-slider {
+		margin-top: 20px;
+		padding-left: 40px;
+		padding-right: 0px;
+	}
+
+	#community {
+		padding-top: 170px !important;
+	}
+
+	.community-right-col {
+		margin-left: 0px !important;
+		width: 100% !important;
+		padding-left: 40px;
+	}
+
+	.community-right-col-text {
+		padding-right: 30px;
+	}
+
+	.community-vid-container {
+		background-image: url(../img/community-bg-mobile2.png) !important;
+		background-repeat: no-repeat;
+		background-position: -20px;	
+		background-size: 100% !important;
+		height: 656px;
+	}
+
+	.community-vid-img {
+		height: 624px;
+		top: 14px !important;
+	}
+
+	.community-list-container {
+		position: static;
+		padding-top: 0;
+    	height: 100% !important;
+		width: 100%;
+		overflow-y: visible;
+		overflow-x: visible;
+	}
+
+	.community-list {
+		list-style: none;
+		text-align: left;
+		margin-top: 0px;
+		padding-left: 10px;
+		padding-right: 0px;
+	}
+
+	.community-list li {
+		font-size: 16px;
+	}
+
+	.marketing-left-col p {
+		margin-left: 0px !important;
+	}
+
+	.community-list li::before {
+		content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+		color: #EB5F65; /* Change the color */
+		font-weight: bold; /* If you want it to be bold */
+		display: inline-block; /* Needed to add space between the bullet and the text */
+		width: 1em; /* Also needed for space (tweak if needed) */
+		margin-left: -1em; /* Also needed for space (tweak if needed) */
+	}
+
+	.community-left-col {
+		padding-top: 30px;
+		padding-left: 40px;
+		padding-right: 0px;
+	}
+
+	#community h4 {
+		float: none;
+	}
+
+	footer {
+		margin-top: 100px;
+	}
+}
+
+
+/* HOME TABLET */
 @media (min-width: 650px) and (max-width: 992px) {
 	#home {
 		min-height: 72vh;
@@ -3082,6 +3307,55 @@ footer {
 		width: 62%;
 		margin-top: 50px;
     	margin-bottom: 20px;
+	}
+}
+
+/* SERVICES TABLET */
+
+@media (min-width: 650px) and (max-width: 992px) {
+	#marketing-img .container {
+		margin-bottom: 0px !important;
+	}
+
+	#google {
+		padding-top: 0px !important;
+		margin-top: 0px;
+	}
+
+	.comunidad-content {
+		padding: 30px 40px;
+	}
+
+	#community .container {
+		overflow: hidden;
+	}
+
+	.marketing-left-col p {
+		margin-left: 0px !important;
+	}
+}
+
+@media (min-width: 460px) and (max-width: 511px) {
+	#google {
+		margin-top: 40px !important;
+	}
+
+	#google-img > div > div > div.col-md-6.col-sm-10.col-xs-10 > section {
+		top: 120px !important;
+	}
+}
+
+@media (min-width: 511px) and (max-width: 650px) {
+	#google {
+		margin-top: 230px !important;
+	}
+
+	#google-img > div > div > div.col-md-6.col-sm-10.col-xs-10 > section {
+		top: -60px !important;
+	}
+
+	.diseno-container {
+		top: -380px !important;
 	}
 }
 
