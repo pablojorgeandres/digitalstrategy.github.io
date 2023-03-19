@@ -3024,6 +3024,10 @@ footer {
 		text-transform: none;
 	}
 
+	#home .btn-mobile {
+		display: block;
+	}
+
 	#contact-us .btn-mobile {
 		display: block;
 	}
@@ -3057,14 +3061,32 @@ footer {
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 650px) and (max-width: 992px) {
+	#home {
+		min-height: 72vh;
+	}
+
+	.primary-boxes {
+		top: 48vh;
+	}
+
 	.primary-boxes-mobile {
 		display: none;
+	}
+
+	#about video {
+		top: 75vh;
 	}
 	
 	.columnB img {
 		width: 62%;
 		margin-top: 50px;
     	margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 650px) {
+	.primary-boxes-mobile {
+		display: none;
 	}
 }
