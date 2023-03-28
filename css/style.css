@@ -3304,7 +3304,7 @@ footer {
 		}
 	}
 
-	@media (min-width: 430px) {
+	@media (min-width: 430px) and (max-width: 650px) {
 		#google {
 			margin-top: 80px !important;
 		}
