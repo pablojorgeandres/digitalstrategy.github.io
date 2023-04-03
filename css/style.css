@@ -2655,133 +2655,6 @@ footer {
 	html, body {
 		overscroll-behavior-y: none;
 	}
-	/* .slick-dots li {
-		top: -1px;
-	}
-	@media (min-width: 530px ) and (max-width: 992px ){
-		#google {
-			padding: 150px 0 0 0 !important;
-			margin-top: 0 !important;
-		}
-	}
-	@media (min-width: 431px ) and (max-width: 529px ){
-
-	} */
-	/* 414 * 736 */
-	/* @media (min-width: 400px ) and (max-width: 430px ){
-		#marketing > div > div > div.col-md-6.col-sm-12.col-xs-12.marketing-left-col > p, .google-left-col p {
-			position: relative;
-			z-index: 1;
-			line-height: 2;
-		}
-		#google-img {
-			top: 400px !important;
-		}
-		#marketing-img .container {
-			top: 500px !important;
-		}
-		.diseno-container {
-			padding-top: 80px;
-		}
-		#contact-us h3 {
-			line-height: 2;
-		}
-	} */
-	/* 375 * 667 */
-	/* @media (min-width: 340px ) and (max-width: 399px ){
-		#marketing > div > div > div.col-md-6.col-sm-12.col-xs-12.marketing-left-col > p, .google-left-col p {
-			position: relative;
-			z-index: 1;
-			line-height: 2;
-		}
-		#google-img {
-			top: 320px !important;
-		}
-		#marketing-img .container {
-			top: 360px !important;
-		}
-		#google-img .container {
-			height: 150px !important;
-		}
-		#marketing > div > div > div.col-md-6.col-sm-12.col-xs-12.marketing-left-col > p, 
-		.google-left-col p {
-			width: 90% !important;
-		}
-		#diseno > div > div > div.col-md-6.col-sm-12.col-xs-12.diseno-left-col > p,
-		#disenografico > div > div:nth-child(1) > div > p,
-		#community > div > div > div.col-md-4.col-sm-12.col-xs-12.community-right-col > p {
-			width: 100% !important;
-			line-height: 2;
-		}
-		.diseno-container {
-			padding-top: 35px;
-		}
-		.community-left-col {
-			padding-left: 20px !important;
-		}
-	} */
-	/* 320 * 568 */
-	/* @media (min-width: 300px ) and (max-width: 339px ){
-		#marketing > div > div > div.col-md-12.col-sm-12.col-xs-12 {
-			height: 130px;
-		}
-		.campanias {
-			margin-top: 20px !important;
-		}
-		.baner-content .main-banner-text-content {
-			margin-left: 0 !important;
-			width: 100% !important;
-		}
-		.baner-content .main-banner-text-content p {
-			font-size: 12px !important;
-			margin: 40px 0 !important;
-		}
-		#marketing > div > div > div.col-md-6.col-sm-12.col-xs-12.marketing-left-col > p, .google-left-col p {
-			position: relative;
-			z-index: 1;
-			line-height: 2;
-		}
-		#marketing-img .container {
-			top: 330px !important;
-		}
-		#google {
-			padding-top: 200px !important;
-			margin-top: 185px !important;
-		}
-		#google-img {
-			top: 320px !important;
-		}
-		#google-img .container {
-			height: 150px !important;
-		}
-		#marketing > div > div > div.col-md-6.col-sm-12.col-xs-12.marketing-left-col > p, .google-left-col p {
-			width: 90% !important;
-		}
-		.diseno-container {
-			padding-top: 35px;
-		}
-		#diseno > div > div > div.col-md-6.col-sm-12.col-xs-12.diseno-left-col > p,
-		#disenografico > div > div:nth-child(1) > div > p,
-		#community > div > div > div.col-md-4.col-sm-12.col-xs-12.community-right-col > p {
-			width: 100% !important;
-			line-height: 2;
-		}
-		.community-left-col {
-			padding-left: 10px !important;
-		}
-	}
-	@media (max-width: 1200px) and (orientation:landscape) {
-		#google {
-			padding-top: 360px !important;
-		}
-	} */
-
-	/* IPHONE 14 */
-	/* @media (min-width: 393px) and (max-width: 852px) {
-		.primary-boxes {
-			display: none;
-		}
-	} */
 }
 /* SAFARI  IOS */
 
@@ -2872,6 +2745,9 @@ footer {
 
 	#about .container {
 		margin-top: 200px;
+		background-image: url('../img/aboutBgProMax.jpg');
+		background-position: center center;
+		background-size: cover;
 	}
 
 	.about-copy {
@@ -2879,12 +2755,7 @@ footer {
 	}
 
 	#about video {
-		position: absolute;
-		top: 87vh;
-		left: 0;
-		width: 100%;
-		height: 917px;
-		object-fit: cover;
+		display: none;
 	}
 
 	.portfolio-card {
@@ -2911,6 +2782,22 @@ footer {
 	.portfolio-img-desc.bgCM {
 		background: rgb(197,148,29);
 		background: linear-gradient(121deg, rgba(197,148,29,1) 0%, rgba(228,61,131,1) 100%);
+	}
+
+	.servicios-content {
+		background-image: none;
+	}
+
+	#servicios .slick-dots {
+		display: none !important;
+	}
+
+	#servicios .slick-next {
+		display: none !important;
+	}
+
+	#servicios .slick-prev {
+		display: none !important;
 	}
 
 	#servicios .servicios-slider .cb1 {
@@ -2999,6 +2886,18 @@ footer {
 		background: rgb(197,148,29);
 		background: linear-gradient(121deg, rgba(197,148,29,1) 0%, rgba(228,61,131,1) 100%);
 		padding: 0px 20px;
+	}
+
+	#testimonial .slick-dots {
+		display: none !important;
+	}
+
+	#testimonial .slick-prev {
+		display: none !important;
+	}
+
+	#testimonial .slick-next {
+		display: none !important;
 	}
 
 	#contact-us button {
@@ -3269,6 +3168,7 @@ footer {
 	}
 }
 
+/* SAFARI */
 @supports (-webkit-hyphens:none) {
 	@media (min-width: 320px) and (max-width: 430px) {
 		#marketing-img .container {
@@ -3287,8 +3187,38 @@ footer {
 			top: 380px;
 		}
 
+		#about video {
+			display: none;
+		}
+
+		#about .container {
+			background-image: url('../img/aboutBgProMax.jpg');
+			background-position: center center;
+			background-size: cover;
+		}
+
+		.about-copy p {
+			line-height: 18px;
+		}
+
 		.comunidad-content {
 			top: 100px;
+		}
+
+		.servicios-content {
+			background-image: none;
+		}
+
+		#servicios .slick-dots {
+			display: none !important;
+		}
+
+		#servicios .slick-next {
+			display: none !important;
+		}
+	
+		#servicios .slick-prev {
+			display: none !important;
 		}
 
 		#disenografico {
@@ -3299,8 +3229,32 @@ footer {
 			padding-top: 320px !important;
 		}
 
+		.testimonial-content {
+			background-image: url(../img/testimonial-bg.jpg) !important;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+
+		#testimonial .slick-dots {
+			display: none !important;
+		}
+	
+		#testimonial .slick-prev {
+			display: none !important;
+		}
+	
+		#testimonial .slick-next {
+			display: none !important;
+		}
+
 		footer {
 			margin-top: 200px;
+		}
+
+		#contact-us p {
+			line-height: 13px;
 		}
 	}
 
@@ -3321,16 +3275,147 @@ footer {
 			top: 180px;
 		}
 
+		.servicios-content {
+			background-image: none;
+		}
+
+		#servicios .slick-dots {
+			display: none !important;
+		}
+
+		#servicios .slick-next {
+			display: none !important;
+		}
+	
+		#servicios .slick-prev {
+			display: none !important;
+		}
+
 		#disenografico {
 			top: 220px;
+		}
+
+		#about .container {
+			background-image: url('../img/aboutBgProMax.jpg');
+			background-position: center center;
+			background-size: cover;
+		}
+
+		.about-copy p {
+			line-height: 18px;
+		}
+
+		#about video {
+			display: none;
 		}
 
 		#community {
 			padding-top: 380px !important;
 		}
 
+		.testimonial-content {
+			background-image: url(../img/testimonial-bg.jpg) !important;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+
+		#testimonial .slick-dots {
+			display: none !important;
+		}
+	
+		#testimonial .slick-prev {
+			display: none !important;
+		}
+	
+		#testimonial .slick-next {
+			display: none !important;
+		}
+
 		footer {
 			margin-top: 250px;
+		}
+
+		#contact-us p {
+			line-height: 13px;
+		}
+	}
+
+	/* IPHONE 13 */
+	@media (device-width: 390px) and (device-height: 844px) {
+		#google {
+			margin-top: 80px !important;
+		}
+
+		#google-img {
+			top: 200px !important;
+		}
+
+		#diseno {
+			top: 540px;
+		}
+
+		.comunidad-content {
+			top: 280px;
+		}
+
+		.servicios-content {
+			background-image: none;
+		}
+
+		#servicios .slick-dots {
+			display: none !important;
+		}
+
+		#servicios .slick-next {
+			display: none !important;
+		}
+	
+		#servicios .slick-prev {
+			display: none !important;
+		}
+
+		#disenografico {
+			top: 320px;
+		}
+
+		#about .container {
+			background-image: url('../img/aboutBgProMax.jpg');
+			background-position: center center;
+			background-size: cover;
+		}
+
+		#about video {
+			display: none;
+		}
+
+		#community {
+			padding-top: 470px !important;
+		}
+
+		.testimonial-content {
+			background-image: url(../img/testimonial-bg.jpg) !important;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+
+		#testimonial .slick-dots {
+			display: none !important;
+		}
+	
+		#testimonial .slick-prev {
+			display: none !important;
+		}
+	
+		#testimonial .slick-next {
+			display: none !important;
+		}
+
+		footer {
+			margin-top: 360px;
 		}
 	}
 	
