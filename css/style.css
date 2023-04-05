@@ -51,7 +51,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    animation: loader 2s linear infinite;
+    animation: loader 1s linear infinite;
     opacity: 0;
 }
 .loader:before{
@@ -62,7 +62,13 @@
         transform: scale(0);
         opacity: 0;
     }
-    50%{
+    20%{
+        opacity: 1;
+    }
+	40%{
+        opacity: 1;
+    }
+	0%{
         opacity: 1;
     }
     100%{
@@ -2528,7 +2534,7 @@ footer {
 			}
 		}
 		/* 414 * 736 */
-		@media (min-width: 400px ) and (max-width: 430px ){
+		@media (min-width: 400px ) and (max-width: 427px ){
 			#marketing > div > div > div.col-md-6.col-sm-12.col-xs-12.marketing-left-col > p, .google-left-col p {
 				position: relative;
 				z-index: 1;
@@ -3225,12 +3231,20 @@ footer {
 			top: 140px;
 		}
 
+		.disenografico-left-col p {
+			line-height: 19px;
+		}
+
+		.google-left-col p {
+			line-height: 16px;
+		}
+
 		#community {
 			padding-top: 320px !important;
 		}
 
 		.testimonial-content {
-			background-image: url(../img/testimonial-bg.jpg) !important;
+			background-image: url(../img/testimonial-bg-mobile.jpg) !important;
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -3314,7 +3328,7 @@ footer {
 		}
 
 		.testimonial-content {
-			background-image: url(../img/testimonial-bg.jpg) !important;
+			background-image: url(../img/testimonial-bg-mobile.jpg) !important;
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -3331,6 +3345,13 @@ footer {
 	
 		#testimonial .slick-next {
 			display: none !important;
+		}
+
+		.disenografico-left-col p {
+			line-height: 19px;
+		}
+		.google-left-col p {
+			line-height: 16px;
 		}
 
 		footer {
@@ -3380,6 +3401,17 @@ footer {
 			top: 320px;
 		}
 
+		.google-left-col p {
+			line-height: 16px;
+		}
+		.marketing-left-col p, .google-left-col p, .diseno-left-col p, .disenografico-left-col p, .community-right-col p {
+			line-height: 19px;
+		}
+
+		.ig-content p {
+			line-height: 22px;
+		}
+
 		#about .container {
 			background-image: url('../img/aboutBgProMax.jpg');
 			background-position: center center;
@@ -3418,6 +3450,91 @@ footer {
 			margin-top: 360px;
 		}
 	}
+
+	/* IPHONE 13 PRO MAX */
+
+	@media (device-width: 428px) and (device-height: 926px) {
+		#google {
+			margin-top: 80px !important;
+		}
+
+		#google-img .container {
+			top: 100px !important;
+		}
+
+		#diseno {
+			top: 540px;
+		}
+
+		.comunidad-content {
+			top: 280px;
+		}
+
+		.servicios-content {
+			background-image: none;
+		}
+
+		#servicios .slick-dots {
+			display: none !important;
+		}
+
+		#servicios .slick-next {
+			display: none !important;
+		}
+	
+		#servicios .slick-prev {
+			display: none !important;
+		}
+
+		#disenografico {
+			top: 320px;
+		}
+
+		.google-left-col p {
+			line-height: 16px;
+		}
+		.marketing-left-col p, .google-left-col p, .diseno-left-col p, .disenografico-left-col p, .community-right-col p {
+			line-height: 19px;
+		}
+
+		#about .container {
+			background-image: url('../img/aboutBgProMax.jpg');
+			background-position: center center;
+			background-size: cover;
+		}
+
+		#about video {
+			display: none;
+		}
+
+		#community {
+			padding-top: 470px !important;
+		}
+
+		.testimonial-content {
+			background-image: url(../img/testimonial-bg.jpg) !important;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+
+		#testimonial .slick-dots {
+			display: none !important;
+		}
+	
+		#testimonial .slick-prev {
+			display: none !important;
+		}
+	
+		#testimonial .slick-next {
+			display: none !important;
+		}
+
+		footer {
+			margin-top: 360px;
+		}
+	 }
 	
 }
 
