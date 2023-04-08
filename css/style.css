@@ -2749,6 +2749,10 @@ footer {
 		margin-top: 20px;
 	}
 
+	#about {
+		scroll-margin-top: -250px;
+	}
+
 	#about .container {
 		margin-top: 200px;
 		background-image: url('../img/aboutBgProMax.jpg');
@@ -2792,6 +2796,10 @@ footer {
 
 	.servicios-content {
 		background-image: none;
+	}
+
+	#servicios {
+		scroll-margin-top: 100px;
 	}
 
 	#servicios .slick-dots {
@@ -2962,6 +2970,10 @@ footer {
 		padding-right: 20px;
 	}
 
+	#marketing {
+		scroll-margin-top: -150px;
+	}
+
 	#marketing > div > div > div > h2 {
 		margin-bottom: 40px;
 	}
@@ -3038,6 +3050,7 @@ footer {
 		background-image: none !important;
 		padding-top: 0;
 		top: 155px;
+		scroll-margin-top: 220px;
 	}
 
 	.dots-bg {
@@ -3100,6 +3113,7 @@ footer {
 
 	#community {
 		padding-top: 170px !important;
+		scroll-margin-top: 70px;
 	}
 
 	.community-right-col {
@@ -3177,6 +3191,10 @@ footer {
 /* SAFARI */
 @supports (-webkit-hyphens:none) {
 	@media (min-width: 320px) and (max-width: 430px) {
+		#marketing {
+			scroll-margin-top: -150px;
+		}
+
 		#marketing-img .container {
 			top: 100px;
 		}
@@ -3191,6 +3209,11 @@ footer {
 
 		#diseno {
 			top: 380px;
+			scroll-margin-top: 450px;
+		}
+
+		#about {
+			scroll-margin-top: -250px;
 		}
 
 		#about video {
@@ -3213,6 +3236,10 @@ footer {
 
 		.servicios-content {
 			background-image: none;
+		}
+
+		#servicios {
+			scroll-margin-top: 100px;
 		}
 
 		#servicios .slick-dots {
@@ -3241,10 +3268,12 @@ footer {
 
 		#community {
 			padding-top: 320px !important;
+			scroll-margin-top: -70px;
 		}
 
 		.testimonial-content {
-			background-image: url(../img/testimonial-bg-mobile.jpg) !important;
+			background-color: #131012 !important;
+			background-image: none !important;
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -3264,7 +3293,7 @@ footer {
 		}
 
 		footer {
-			margin-top: 200px;
+			margin-top: 0px;
 		}
 
 		#contact-us p {
@@ -3273,6 +3302,10 @@ footer {
 	}
 
 	@media (min-width: 430px) and (max-width: 650px) {
+		#marketing {
+			scroll-margin-top: -150px;
+		}
+
 		#google {
 			margin-top: 80px !important;
 		}
@@ -3283,6 +3316,7 @@ footer {
 
 		#diseno {
 			top: 480px;
+			scroll-margin-top: 490px;
 		}
 
 		.comunidad-content {
@@ -3291,6 +3325,10 @@ footer {
 
 		.servicios-content {
 			background-image: none;
+		}
+
+		#servicios {
+			scroll-margin-top: 100px;
 		}
 
 		#servicios .slick-dots {
@@ -3319,17 +3357,22 @@ footer {
 			line-height: 18px;
 		}
 
+		#about {
+			scroll-margin-top: -250px;
+		}
+
 		#about video {
 			display: none;
 		}
 
 		#community {
 			padding-top: 380px !important;
+			scroll-margin-top: -150px;
 		}
 
 		.testimonial-content {
-			background-image: url(../img/testimonial-bg-mobile.jpg) !important;
-			background-size: cover;
+			background-color: #131012 !important;
+			background-image: none !important;
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
@@ -3355,7 +3398,7 @@ footer {
 		}
 
 		footer {
-			margin-top: 250px;
+			margin-top: 0px;
 		}
 
 		#contact-us p {
@@ -3365,6 +3408,14 @@ footer {
 
 	/* IPHONE 13 */
 	@media (device-width: 390px) and (device-height: 844px) {
+		#marketing {
+			scroll-margin-top: -150px;
+		}
+
+		#about {
+			scroll-margin-top: -250px;
+		}
+
 		#google {
 			margin-top: 80px !important;
 		}
@@ -3375,6 +3426,7 @@ footer {
 
 		#diseno {
 			top: 540px;
+			scroll-margin-top: 420px;
 		}
 
 		.comunidad-content {
@@ -3383,6 +3435,10 @@ footer {
 
 		.servicios-content {
 			background-image: none;
+		}
+
+		#servicios {
+			scroll-margin-top: 100px;
 		}
 
 		#servicios .slick-dots {
@@ -3424,10 +3480,12 @@ footer {
 
 		#community {
 			padding-top: 470px !important;
+			scroll-margin-top: -250px;
 		}
 
 		.testimonial-content {
-			background-image: url(../img/testimonial-bg.jpg) !important;
+			background-color: #131012 !important;
+			background-image: none !important;
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -3447,13 +3505,21 @@ footer {
 		}
 
 		footer {
-			margin-top: 360px;
+			margin-top: 0px;
 		}
 	}
 
 	/* IPHONE 13 PRO MAX */
 
 	@media (device-width: 428px) and (device-height: 926px) {
+		#marketing {
+			scroll-margin-top: -150px;
+		}
+
+		#about {
+			scroll-margin-top: -250px;
+		}
+
 		#google {
 			margin-top: 80px !important;
 		}
@@ -3464,6 +3530,7 @@ footer {
 
 		#diseno {
 			top: 540px;
+			scroll-margin-top: 500px;
 		}
 
 		.comunidad-content {
@@ -3472,6 +3539,10 @@ footer {
 
 		.servicios-content {
 			background-image: none;
+		}
+
+		#servicios {
+			scroll-margin-top: 100px;
 		}
 
 		#servicios .slick-dots {
@@ -3509,11 +3580,12 @@ footer {
 
 		#community {
 			padding-top: 470px !important;
+			scroll-margin-top: -250px;
 		}
 
 		.testimonial-content {
-			background-image: url(../img/testimonial-bg.jpg) !important;
-			background-size: cover;
+			background-color: #131012 !important;
+			background-image: none !important;
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
@@ -3532,7 +3604,7 @@ footer {
 		}
 
 		footer {
-			margin-top: 360px;
+			margin-top: 0px;
 		}
 	 }
 	
