@@ -3190,7 +3190,22 @@ footer {
 
 /* SAFARI */
 @supports (-webkit-hyphens:none) {
+	#home-bg-mobile {
+		display: none;
+	}
+
+	#home {
+		background-image: url('../img/home-bg-ios.png');
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
 	@media (min-width: 320px) and (max-width: 430px) {
+		#home-bg-mobile {
+			display: none;
+		}
+
 		#marketing {
 			scroll-margin-top: -150px;
 		}
@@ -3302,6 +3317,10 @@ footer {
 	}
 
 	@media (min-width: 430px) and (max-width: 650px) {
+		#home-bg-mobile {
+			display: none;
+		}
+
 		#marketing {
 			scroll-margin-top: -150px;
 		}
@@ -3408,6 +3427,10 @@ footer {
 
 	/* IPHONE 13 */
 	@media (device-width: 390px) and (device-height: 844px) {
+		#home-bg-mobile {
+			display: none;
+		}
+
 		#marketing {
 			scroll-margin-top: -150px;
 		}
@@ -3512,6 +3535,10 @@ footer {
 	/* IPHONE 13 PRO MAX */
 
 	@media (device-width: 428px) and (device-height: 926px) {
+		#home-bg-mobile {
+			display: none;
+		}
+
 		#marketing {
 			scroll-margin-top: -150px;
 		}
@@ -3606,8 +3633,36 @@ footer {
 		footer {
 			margin-top: 350px;
 		}
-	 }
+	}
 	
+	/* IPHONE 11  */
+
+	@media (device-width: 414px) and (device-height: 896px) {
+		#home-bg-mobile {
+			display: none;
+		}
+
+		#marketing-img .container {
+			top: 200px !important;
+			padding-bottom: 0px;
+		}
+
+		#google {
+			margin-top: 120px !important;
+		}
+
+		#google-img {
+			top: 200px !important;
+		}
+
+		footer {
+			margin-top: 200px;
+		}
+
+		#home-page footer {
+			margin-top: 0px;
+		}
+	}
 }
 
 
