@@ -1207,6 +1207,10 @@ footer {
 	padding: 60px 0 0;
 }
 
+#services-body > footer {
+	margin-top: 100px;
+}
+
 .bottom-icon-desk {
 	display: block;
     position: relative;
