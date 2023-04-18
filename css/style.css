@@ -3307,8 +3307,12 @@ footer {
 			display: none !important;
 		}
 
-		footer {
+		#home-page > footer {
 			margin-top: 10px;
+		}
+
+		#services-body > footer {
+			margin-top: 400px;
 		}
 
 		#contact-us p {
@@ -3527,8 +3531,12 @@ footer {
 			display: none !important;
 		}
 
-		footer {
+		#home-page > footer {
 			margin-top: 10px;
+		}
+
+		#services-body > footer {
+			margin-top: 400px;
 		}
 	}
 
@@ -3630,8 +3638,12 @@ footer {
 			display: none !important;
 		}
 
-		footer {
+		#home-page > footer {
 			margin-top: 10px;
+		}
+		
+		#services-body > footer {
+			margin-top: 400px;
 		}
 	}
 	
